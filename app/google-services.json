@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "679715686282",
+    "firebase_url": "https://covid-19-projects.firebaseio.com",
+    "project_id": "covid-19-projects",
+    "storage_bucket": "covid-19-projects.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679715686282:android:b8cfae7e415589899fea73",
+        "android_client_info": {
+          "package_name": "com.acamara.blowit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679715686282-mjifu45lloi3fhsla6hh6qs59k0odsbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.acamara.blowit",
+            "certificate_hash": "7ebffd1a7d7c17635b3de56545b7b05e4eed5724"
+          }
+        },
+        {
+          "client_id": "679715686282-jiqr707s0um0pacs0n34vus59jmimmto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeUopoeaBt5h0r2mJFg3du6MfMkiQ-65w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679715686282-jiqr707s0um0pacs0n34vus59jmimmto.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "679715686282-u03mkagrgb9khm85taljot4jgv0vru94.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acamara.insta"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679715686282:android:213291592f0323459fea73",
+        "android_client_info": {
+          "package_name": "com.acamara.insta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679715686282-jiqr707s0um0pacs0n34vus59jmimmto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeUopoeaBt5h0r2mJFg3du6MfMkiQ-65w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679715686282-jiqr707s0um0pacs0n34vus59jmimmto.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "679715686282-u03mkagrgb9khm85taljot4jgv0vru94.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acamara.insta"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
