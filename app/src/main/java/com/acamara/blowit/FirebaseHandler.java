@@ -89,6 +89,24 @@ public class FirebaseHandler{
     public void removeCollection(String path){
 
     }
+    public int getUserCount(){
+        final long[] count = new long[1];
+        String uid = user.getUid();
+        ref = FirebaseDatabase.getInstance().getReference().child("user").child(uid).child("counter");
+        ref.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                count[0] = (long) dataSnapshot.getValue();
+                System.out.println("From Firebase yooooo"+count[0]);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+        return (int) count[0];
+    }
 
     public List<User> retrieveUsers() {
         String uid = user.getUid();

@@ -53,7 +53,10 @@ public class signup extends AppCompatActivity {
         email = this.email.getText().toString();
         password = this.password.getText().toString();
         progressbar.setVisibility(View.VISIBLE);
-        registerNewUser(username, first_name, last_name, email, password);
+        if(username.isEmpty() && first_name.isEmpty() && email.isEmpty() && password.isEmpty())
+            Toast.makeText(getApplicationContext(), "Registration failed, input valid data", Toast.LENGTH_LONG).show();
+        else
+            registerNewUser(username, first_name, last_name, email, password);
     }
 
     public void gotoLoginScreen(View view){
